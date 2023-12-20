@@ -1,18 +1,18 @@
 <template>
   <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
-  <Login/>
+  <LoginForm/>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
 import HelloWorld from './components/HelloWorld.vue';
-import Login from "./components/Login.vue";
+import LoginForm from "./components/LoginForm.vue";
 
 export default defineComponent({
   name: 'App',
   components: {
     HelloWorld,
-    Login
+    LoginForm
   }
 });
 </script>
