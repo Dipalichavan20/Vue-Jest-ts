@@ -25,7 +25,7 @@ test("should have button", () => {
   expect(wrapper.find("button").exists()).toBe(true);
 });
 
-test('trigger click event on button ', async () => {
+test('trigger click event on button. ', async () => {
     const wrapper = shallowMount(LoginForm)
     const button = wrapper.find('button')
     await button.trigger('click')
